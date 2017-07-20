@@ -8,6 +8,9 @@ var $submit = $('[data-type="submit"]');
 
 function storeData(){
     $form.on('submit', function(event){
+        event.preventDefault();
         console.log("here");
     });
 }
+
+storeData();
