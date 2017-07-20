@@ -1,3 +1,13 @@
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-family: 'Monoton', cursive;
+    font-size: 60px;
+}
+
 .form-container {
     display: flex;
     justify-content: center;
