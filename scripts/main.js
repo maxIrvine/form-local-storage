@@ -9,8 +9,5 @@ var $submit = $('[data-type="submit"]');
 function storeData(){
     $form.on('submit', function(event){
         console.log("here");
-        $name.on('input', function(event){
-            console.log($name.val());
-        });
     });
 }
