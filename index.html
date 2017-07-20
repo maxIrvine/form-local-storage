@@ -11,50 +11,36 @@
 <body>
     <div class="form-container">
         <form class="form">
-            <label>Enter name:
-                <input type="text" name="name" value="">
-            </label>
+            <div class="name-field">
+                <label>Enter name:
+                    <input type="text" name="name" value="">
+                </label>
+            </div>
             <br>
-            <label>Enter age:
-                <input type="number" name="age" value="">
-            </label>
+            <div class="age-field">
+                <label>Enter age:
+                    <input type="number" name="age" value="">
+                </label>
+            </div>
             <br>
-            <label>Enter super hero powers:
-                <input type="text" name="super powers" value="">
-            </label>
+            <div class="shirt-field">
+                <label>Enter your shirt size:<br>
+                    <input type="radio" name="hat-size" value="small">Small<br>
+                    <input type="radio" name="hat-size" value="medium">Medium<br>
+                    <input type="radio" name="hat-size" value="large">Large
+                </label>
+            </div>
             <br>
-            <label>Enter your hat size:<br>
-                <input type="radio" name="hat-size" value="small">Small<br>
-                <input type="radio" name="hat-size" value="medium">Medium<br>
-                <input type="radio" name="hat-size" value="large">Large
-            </label>
+            <div class="message-field">
+                <label>Enter your Message:
+                    <textarea name="biography"></textarea>
+                </label>
+            </div>
             <br>
-            <label>Enter your favorite operating system:
-                <input type="text" name="favorite operating system" value="">
-            </label>
-            <br>
-            <label>Enter your Bio:
-                <textarea name="biography"></textarea>
-            </label>
-            <br>
-            <label>Enter your tag line:
-                <input type="text" name="tag line" value="">
-            </label>
-            <br>
-            <label>Enter your Arch Enemies List:
-                <input type="text" name="enemies" value="">
-            </label>
-            <br>
-            <label>Mascot/Power-Animal
-                <input type="text" name="mascot" value="">
-            </label>
-            <br>
-            <label>Enter your favorite programming language:
-                <input type="text" name="favorite programming language" value="">
-            </label> 
-            <br>
-            <input type="submit">
-            <input type="reset">
+            <div class="button-container">
+                <input type="submit">
+                <input type="reset">
+            </div>
         </form>
     </div>
 </body>
