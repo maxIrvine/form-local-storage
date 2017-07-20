@@ -13,9 +13,9 @@ function storeData(){
         event.preventDefault();
         localStorage.setItem('name', $name.val());
         localStorage.setItem('age', $age.val());
-        localStorage.setItem('shirt small', $shirtSmall.val());
-        localStorage.setItem('shirt medium', $shirtMedium.val());
-        localStorage.setItem('shirt large', $shirtLarge.val());
+        localStorage.setItem('shirt small', $shirtSmall.is(':checked'));
+        localStorage.setItem('shirt medium', $shirtMedium.is(':checked'));
+        localStorage.setItem('shirt large', $shirtLarge.is(':checked'));
         localStorage.setItem('message', $message.val());
     });
 }

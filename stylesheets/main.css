@@ -53,3 +53,24 @@
     display: flex;
     justify-content: center;
 }
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.submit {
+    background-color: darkslategrey;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 9px;
+}
+
+.reset {
+    background-color: darkslategrey;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 9px;
+}
