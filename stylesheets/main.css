@@ -8,6 +8,34 @@
     font-size: 60px;
 }
 
+.s {
+    color: rgb(213,67,12);
+}
+
+.t {
+    color: rgb(183,64, 102);
+}
+
+.o {
+    color: rgb(181,33, 83);
+}
+
+.r {
+    color: rgb(6,143, 173);
+}
+
+.a {
+    color: rgb(139,118, 4);
+}
+
+.g {
+    color: rgb(179,141, 13);
+}
+
+.e {
+    color: rgb(219,138, 45);
+}
+
 .form-container {
     display: flex;
     justify-content: center;
