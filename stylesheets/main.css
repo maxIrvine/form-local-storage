@@ -2,6 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 4px solid darkslategrey;
+    margin-top: 25px;
 }
 
+.form {
+    border: 4px solid darkslategrey;
+    padding: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
